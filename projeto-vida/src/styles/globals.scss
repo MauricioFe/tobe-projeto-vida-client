@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'hk-grotesk';
+	src: url('../assets/fonts/hk-grotesk/HKGrotesk-Bold.otf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: aller_rg;
+	src: url('../assets/fonts/aller/Aller_Rg.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: aller_lt;
+	src: url('../assets/fonts/aller/Aller_Lt.ttf');
+	font-weight: 400;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html {
+	--white-1: #fdfeff;
+	--white-2: #ffffff;
+	--gray-1: #f8f9fa;
+	--gray-2: #f1f3f5;
+	--gray-3: #eaecef;
+	--gray-4: #dfe2e6;
+	--gray-5: #cfd4d9;
+	--gray-6: #aeb5bc;
+	--gray-7: #878e95;
+	--gray-8: #4a5056;
+	--gray-9: #353a3f;
+	--gray-10: #222529;
+	--blue-1: #1c3792;
+	--blue-2: #40c9ff;
+	--blue-3: #4462c4;
+	--purple: #7b86f5;
+	--purple-1: #7665ff;
+
+	font-family: 'hk-grotesk', 'aller_rg', 'aller_lt', sans-serif;
+	font-size: 62.5%;
+
+	body {
+		height: 100%;
+		overflow-x: hidden;
+		#root {
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}

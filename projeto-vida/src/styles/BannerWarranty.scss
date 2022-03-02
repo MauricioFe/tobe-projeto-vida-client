@@ -1,0 +1,31 @@
+section#banner-warrranty {
+	margin: 7rem 6.5rem;
+	#description-warranty {
+		max-width: 179.1rem;
+		padding: 11.5rem 15.2rem;
+		border-radius: 2.4rem;
+		background: url('../assets/images/illustrations/illustra_warranty.svg')
+				no-repeat 100% 0 / 58.9rem,
+			url('../assets/images/illustrations/points-warranty1.svg') no-repeat
+				0% 29.7rem,
+			url('../assets/images/illustrations/points-warranty2.svg') no-repeat
+				100% 0 var(--gray-10);
+
+		h2 {
+			font-family: 'hk-grotesk';
+			font-size: 6.4rem;
+			color: var(--white-2);
+			margin-bottom: 0.6rem;
+			span {
+				color: var(--purple);
+			}
+		}
+
+		p {
+			font-family: 'Aller_Lt';
+			color: var(--white-2);
+			font-size: 3.6rem;
+			max-width: 58.3rem;
+		}
+	}
+}

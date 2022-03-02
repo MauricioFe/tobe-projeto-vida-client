@@ -1,0 +1,49 @@
+section#benefits {
+	padding: 0.6rem 9.724rem;
+	margin-bottom: 7rem;
+	width: 100%;
+	background: url('../assets/images/illustrations/points.svg') no-repeat 0%
+			53rem,
+		url('../assets/images/illustrations/points.svg') no-repeat 100% 0rem,
+		url('../assets/images/illustrations/points.svg') no-repeat 0% 195rem,
+		url('../assets/images/illustrations/points.svg') no-repeat 100% 159rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	div.benefit {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		h2 {
+			max-width: 76.9rem;
+			font-family: 'hk-grotesk';
+			font-size: 6.4rem;
+			color: var(--gray-9);
+		}
+
+		p {
+			max-width: 78.4rem;
+			font-family: 'Aller_Lt';
+			font-size: 3.6rem;
+			color: var(--gray-8);
+		}
+
+		> img {
+			width: 77.5rem;
+		}
+
+		&:first-child,
+		&:last-of-type {
+			flex-direction: row-reverse;
+		}
+
+		&:first-of-type + .benefit {
+			margin-top: -7.434rem;
+			> img {
+				margin-left: -7.434rem;
+			}
+		}
+	}
+}
