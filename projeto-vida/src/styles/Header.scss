@@ -37,10 +37,8 @@ header {
 			}
 
 			li:last-child a:hover {
-				border: 3px solid var(--blue-2);
-				color: var(--blue-2);
-				border-radius: 2.4rem;
-				padding: 3rem 10rem;
+				background-color: var(--blue-1);
+				color: var(--gray-2);
 			}
 		}
 	}
