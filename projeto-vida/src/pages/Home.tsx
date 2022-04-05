@@ -2,7 +2,7 @@ import BannerEvents from "../components/BannerEvents";
 import BannerHome from "../components/BannerHome";
 import BannerWarranty from "../components/BannerWarranty";
 import Benefits from "../components/Benefits";
-import Carousel from "../components/Carousel";
+import Courses from "../components/Courses";
 import Contacts from "../components/Contacts";
 import Experience from "../components/Experience";
 import Footer from "../components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
         <Experience />
         <Benefits />
         <BannerWarranty />
-        <Carousel />
+        <Courses />
         <BannerEvents/>
         <Contacts/>
         <Footer/>
