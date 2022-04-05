@@ -1,4 +1,5 @@
 import '../styles/BannerWarranty.scss'
+import '../styles/BannerWarrantyResponsive.scss'
 
 export default function BannerWarranty () {
   return (
