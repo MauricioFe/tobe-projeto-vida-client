@@ -2,6 +2,7 @@ import illustra1 from '../assets/images/illustrations/benefit_illustra1.svg'
 import illustra2 from '../assets/images/illustrations/benefit_illustra2.svg'
 import illustra3 from '../assets/images/illustrations/benefit_illustra3.svg'
 import '../styles/Benefits.scss'
+import '../styles/BenefitsResponsive.scss'
 
 export default function Benefits() {
   return (
