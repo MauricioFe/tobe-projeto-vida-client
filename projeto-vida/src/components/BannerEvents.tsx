@@ -1,5 +1,6 @@
-import '../styles/BannerEvents.scss'
 import EventCard from './EventCard'
+import '../styles/BannerEvents.scss'
+import '../styles/BannerEventsResponsive.scss'
 
 export default function BannerEvents () {
   return (

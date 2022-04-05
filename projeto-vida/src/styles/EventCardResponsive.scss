@@ -1,0 +1,76 @@
+@import "globals";
+div#event-card-container {
+    @media screen and(max-width: $extra-large) {
+        #event-card {
+            #event-card-content {
+                h2 {
+                    font-size: 1.7rem;
+                }
+                p {
+                    margin-top: 1rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width: $large) {
+        #event-card {
+            #event-card-content {
+                h2 {
+                    font-size: 1.5rem;
+                }
+                p {
+                    margin-top: 1rem;
+                    font-size: 1.45rem;
+                }
+            }
+        }
+    }
+    @media screen and(max-width: $large-2) {
+        #event-card {
+            #event-card-content {
+                margin-top: 1rem;
+                h2 {
+                    font-size: 1.3rem;
+                }
+                p {
+                    margin-top: 1rem;
+                    font-size: 1.15rem;
+                }
+            }
+        }
+    }
+    @media screen and(max-width: $medium) {
+        max-width: 100%;
+        margin-bottom: 3rem;
+        #event-card {
+            width: 100%;
+            #event-card-content {
+                margin-top: 1rem;
+                h2 {
+                    font-size: 2.3rem;
+                }
+                p {
+                    margin-top: 1rem;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+    @media screen and(max-width: $small) {
+        #event-card {
+            #event-card-content {
+                margin-top: 1rem;
+                h2 {
+                    font-size: 1.8rem;
+                }
+                p {
+                    margin-top: 1rem;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
