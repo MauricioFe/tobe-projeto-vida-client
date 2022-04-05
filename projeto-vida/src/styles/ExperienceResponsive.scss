@@ -1,0 +1,174 @@
+@import "globals";
+section#experience {
+	//1536px
+	@media screen and (max-width: $extra-large) {
+		h2 {
+			font-size: 6rem;
+		}
+		h4 {
+			font-size: 3.2rem;
+		}
+		.experience-cards {
+			div.experience-card {
+				div.card-title {
+					h5 {
+						font-size: 1.5rem;
+					}
+				}
+
+				p {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+	//1280
+	@media screen and (max-width: $large) {
+		.experience-cards {
+			gap: 3.5rem;
+		}
+		.experience-cards div.experience-card {
+			width: 31rem;
+		}
+		.experience-cards {
+			div.experience-card {
+				div.card-title {
+					h5 {
+						font-size: 1.2rem;
+					}
+				}
+
+				p {
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+	//1024px
+	@media screen and (max-width: $large-2) {
+		width: 95%;
+		margin: 17.4rem auto;
+		h2 {
+			font-size: 4rem;
+		}
+		h4 {
+			font-size: 2.5rem;
+		}
+		.experience-cards {
+			gap: 3rem;
+		}
+		.experience-cards div.experience-card {
+			width: 28rem;
+			padding: 4rem 4rem;
+		}
+		.experience-cards {
+			div.experience-card {
+				div.card-title {
+					gap: 1.2rem;
+					div.experience-icon {
+						width: 5.5rem;
+						height: 4rem;
+						> img {
+							width: 1.75rem;
+						}
+					}
+					h5 {
+						font-size: 1.2rem;
+						width: 100%;
+					}
+				}
+
+				p {
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
+
+	//1024px
+	@media screen and (max-width: $medium) {
+		width: 95%;
+		margin: 17.4rem auto;
+		h2 {
+			font-size: 3.8rem;
+		}
+		h4 {
+			font-size: 2.2rem;
+		}
+		.experience-cards {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+		}
+		.experience-cards div.experience-card {
+			width: 100%;
+			padding: 4rem 4rem;
+		}
+		.experience-cards {
+			div.experience-card {
+				div.card-title {
+					justify-content: space-between;
+					gap: 2rem;
+					div.experience-icon {
+						width: 6rem;
+						height: 6rem;
+						> img {
+							width: 1.75rem;
+						}
+					}
+					h5 {
+						width: 80%;
+						font-size: 1.5rem;
+					}
+				}
+
+				p {
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+
+	//425px
+	@media screen and (max-width: $small) {
+		width: 93%;
+		margin: 13.4rem auto;
+		padding: 6rem 3.3rem;
+		h2 {
+			font-size: 2.8rem;
+		}
+		h4 {
+			font-size: 1.8rem;
+		}
+		.experience-cards {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+		}
+		.experience-cards div.experience-card {
+			width: 100%;
+			padding: 4rem 4rem;
+		}
+		.experience-cards {
+			div.experience-card {
+				div.card-title {
+					justify-content: space-between;
+					gap: 2rem;
+					div.experience-icon {
+						width: 6rem;
+						height: 4.5rem;
+						> img {
+							width: 1.75rem;
+						}
+					}
+					h5 {
+						width: 100%;
+						font-size: 1.2rem;
+					}
+				}
+
+				p {
+					font-size: 1.2rem;
+				}
+			}
+		}
+	}
+}

@@ -103,10 +103,18 @@
 	}
 	@media screen and (max-width: $large) {
 		.img-points-1 {
-			bottom: 0rem;
+			bottom: 3rem;
 		}
 		.img-points-2 {
 			top: 18rem;
+		}
+	}
+	@media screen and (max-width: $large-2) {
+		.img-points-1 {
+			bottom: 50rem;
+		}
+		.img-points-2 {
+			top: 23rem;
 		}
 	}
 	@media screen and (max-width: $medium) {

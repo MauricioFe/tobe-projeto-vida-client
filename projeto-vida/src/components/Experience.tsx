@@ -2,6 +2,7 @@ import smile from '../assets/images/icons/Smile.svg'
 import capelo from '../assets/images/icons/Capelo.svg'
 import cursor from '../assets/images/icons/Cursor.svg'
 import '../styles/Experience.scss'
+import '../styles/ExperienceResponsive.scss'
 
 export default function Experience() {
   return (
