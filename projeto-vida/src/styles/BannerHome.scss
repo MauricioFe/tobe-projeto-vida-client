@@ -1,58 +1,71 @@
 #banner-home {
-	padding-top: 0.7rem;
-	width: 100%;
-	background: url('../assets/images/illustrations/points.svg') no-repeat 0%
-			46.5rem,
-		url('../assets/images/illustrations/points.svg') no-repeat 100% 0rem;
-
 	#content-banner-home {
-		background: url('../assets/images/illustrations/all_under_control.svg')
-			no-repeat right/contain;
-		max-width: 160rem;
-		margin-left: 21.7rem;
+		width: 90%;
+		height: 100%;
 		display: flex;
-		flex-direction: column;
+		justify-content: space-evenly;
+		margin-left: 15rem;
+		align-items: center;
 
-		h1 {
-			font-family: 'hk-grotesk';
-			font-size: 8rem;
-			max-width: 96.6rem;
-			margin: 3.7rem 0;
-
-			span {
-				color: var(--purple);
-
-				&::after {
-					content: '';
-					position: absolute;
-					width: 26.9rem;
-					height: 2.6rem;
-					background-color: #e3e6ff;
-					margin-left: -24.9rem;
-					margin-top: 7rem;
-					z-index: -1;
-				}
+		.content-banner-img {
+			img {
+				width: 70rem;
 			}
 		}
+		.content-banner-action {
+			display: flex;
+			flex-direction: column;
+			h1 {
+				font-family: "hk-grotesk";
+				font-size: 7.8rem;
+				max-width: 96.6rem;
+				margin: 3.7rem 0;
 
-		h4 {
-			font-family: 'Aller_rg';
-			font-size: 3.6rem;
-			color: var(--gray-7);
-			max-width: 68.6rem;
-		}
+				span {
+					color: var(--purple);
 
-		a {
-			font-family: 'Aller_rg';
-			font-size: 2.4rem;
-			color: var(--white-2);
-			background-color: var(--blue-1);
-			text-align: center;
-			width: 27.6rem;
-			border-radius: 2.4rem;
-			padding: 3rem 0;
-			margin: 7.215rem 0;
-			cursor: pointer;
+					&::after {
+						content: "";
+						position: absolute;
+						width: 26.9rem;
+						height: 2.6rem;
+						background-color: #e3e6ff;
+						margin-left: -24.9rem;
+						margin-top: 7rem;
+						z-index: -1;
+					}
+				}
+			}
+
+			h4 {
+				font-family: "Aller_rg";
+				font-size: 3.6rem;
+				color: var(--gray-7);
+				max-width: 68.6rem;
+			}
+
+			a {
+				font-family: "Aller_rg";
+				font-size: 2.4rem;
+				color: var(--white-2);
+				background-color: var(--blue-1);
+				text-align: center;
+				width: 27.6rem;
+				border-radius: 2.4rem;
+				padding: 3rem 0;
+				margin-top: 7rem;
+				cursor: pointer;
+			}
 		}
+	}
+	.img-points-1 {
+		position: absolute;
+		left: 2rem;
+		bottom: 3.4rem;
+	}
+	.img-points-2 {
+		position: absolute;
+		right: 2rem;
+		top: 21rem;
 	}
 }

@@ -1,0 +1,121 @@
+@import "globals";
+#banner-home {
+	#content-banner-home {
+		@media screen and (max-width: $extra-large) {
+			.content-banner-img {
+				img {
+					width: 65rem;
+					margin-right: 2.3rem;
+				}
+			}
+			.content-banner-action {
+				h1 {
+					font-size: 5.3rem;
+					span {
+						&::after {
+							margin-top: 4.3rem;
+							width: 15.9rem;
+							margin-left: -15.9rem;
+						}
+					}
+				}
+				h4 {
+					font-size: 2.6rem;
+					max-width: 55.6rem;
+				}
+			}
+		}
+		@media screen and (max-width: $large) {
+			.content-banner-img {
+				img {
+					width: 55rem;
+					margin-right: 6.3rem;
+				}
+			}
+			.content-banner-action {
+				h1 {
+					font-size: 4.3rem;
+
+					span {
+						&::after {
+							margin-top: 3rem;
+							width: 14.9rem;
+							margin-left: -14.9rem;
+						}
+					}
+				}
+				h4 {
+					font-size: 2rem;
+					max-width: 45.6rem;
+				}
+			}
+		}
+		@media screen and (max-width: $medium) {
+			margin: auto;
+			.content-banner-img {
+				display: none;
+			}
+			.content-banner-action {
+				align-items: center;
+				background: none;
+				text-align: center;
+			}
+		}
+		@media screen and (max-width: $small) {
+			align-items: center;
+			width: 90%;
+			margin: 0 auto;
+			.content-banner-action {
+				text-align: left;
+				h1 {
+					font-size: 3.9rem;
+					max-width: 58.6rem;
+
+					span {
+						&::after {
+							margin-top: 3.5rem;
+							width: 11.9rem;
+							margin-left: -11.9rem;
+						}
+					}
+				}
+				h4 {
+					font-size: 1.8rem;
+				}
+
+				a {
+					font-size: 2rem;
+					color: var(--white-2);
+					width: 24.6rem;
+					margin: 5rem 0;
+					align-self: flex-start;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $extra-large) {
+		.img-points-1 {
+			bottom: -2rem;
+		}
+		.img-points-2 {
+			top: 18rem;
+		}
+	}
+	@media screen and (max-width: $large) {
+		.img-points-1 {
+			bottom: 0rem;
+		}
+		.img-points-2 {
+			top: 18rem;
+		}
+	}
+	@media screen and (max-width: $medium) {
+		margin-top: 0;
+		.img-points-1 {
+			display: none;
+		}
+		.img-points-2 {
+			display: none;
+		}
+	}
+}
