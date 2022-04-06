@@ -24,7 +24,7 @@ export default function Experience() {
             <div className='experience-icon'>
               <img src={capelo} alt="capelo" />
             </div>
-            <h5>Experiência personalizada</h5>
+            <h5>Planeje seus estudos</h5>
           </div>        
           <p>Alinhamos seu planejamento de acordo com seus objetivos sem perder seu progresso nos estudos</p>
         </div>
@@ -33,7 +33,7 @@ export default function Experience() {
             <div className="experience-icon">
               <img src={cursor} alt="cursor" />
             </div>
-            <h5>Experiência personalizada</h5>
+            <h5>Variedade de cursos</h5>
           </div>          
           <p>Tenha acesso a vários cursos de linguagem e tecnologia e aumente seu conhecimento</p>
         </div>

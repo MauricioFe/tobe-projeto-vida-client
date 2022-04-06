@@ -4,20 +4,20 @@ $large-2: 1024px;
 $medium: 934px;
 $small: 425px;
 @font-face {
-	font-family: 'hk-grotesk';
-	src: url('../assets/fonts/hk-grotesk/HKGrotesk-Bold.otf');
+	font-family: "hk-grotesk";
+	src: url("../assets/fonts/hk-grotesk/HKGrotesk-Bold.otf");
 	font-weight: 700;
 }
 
 @font-face {
 	font-family: aller_rg;
-	src: url('../assets/fonts/aller/Aller_Rg.ttf');
+	src: url("../assets/fonts/aller/Aller_Rg.ttf");
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: aller_lt;
-	src: url('../assets/fonts/aller/Aller_Lt.ttf');
+	src: url("../assets/fonts/aller/Aller_Lt.ttf");
 	font-weight: 400;
 }
 
@@ -49,9 +49,9 @@ html {
 	--purple: #7b86f5;
 	--purple-1: #7665ff;
 
-	font-family: 'hk-grotesk', 'aller_rg', 'aller_lt', sans-serif;
+	font-family: "hk-grotesk", "aller_rg", "aller_lt", sans-serif;
 	font-size: 62.5%;
-
+	scroll-behavior: smooth;
 	body {
 		height: 100%;
 		overflow-x: hidden;

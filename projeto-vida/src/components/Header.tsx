@@ -5,19 +5,19 @@ import '../styles/Header.scss'
 export default function Header() {
   return (
     <header>
-      
-      <img src={Logo} alt="Logo" id='logo'/>
-      
+
+      <img src={Logo} alt="Logo" id='logo' />
+
       <nav>
         <ul>
           <li>
-            <Link to="/">Eventos</Link>
+            <a href="#banner-event">Eventos</a>
           </li>
           <li>
-            <Link to="/">Cursos</Link>
+            <a href="#carousel">Cursos</a>
           </li>
           <li>
-            <Link to="/">Login</Link>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </nav>
