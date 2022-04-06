@@ -1,5 +1,6 @@
 import illustrationContacts from '../assets/images/illustrations/illustra_section-6.svg'
 import '../styles/Contacts.scss'
+import '../styles/ContactsResponsive.scss'
 
 export default function Contacts() {
   return (

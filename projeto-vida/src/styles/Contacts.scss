@@ -20,7 +20,7 @@ section#contacts {
 		justify-content: space-between;
 		align-items: center;
 		> img {
-			width: 40%;
+			width: 50%;
 		}
 		.form-contact {
 			width: 40%;
@@ -65,6 +65,8 @@ section#contacts {
 
 		button.confirm-button {
 			align-self: flex-end;
+			font-family: "Aller_Rg";
+			letter-spacing: .2rem;
 			margin-left: auto;
 			margin-top: 44px;
 			width: 20rem;
