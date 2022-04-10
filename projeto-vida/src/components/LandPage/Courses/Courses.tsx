@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import '../styles/Courses.scss'
-import '../styles/CoursesResponsive.scss'
+import '../../../styles/Courses/Courses.scss'
+import '../../../styles/Courses/CoursesResponsive.scss'
 
 export default function Courses() {
   return (

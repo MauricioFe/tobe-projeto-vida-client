@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-import Logo from '../assets/images/icons/Logo.svg'
-import menu from '../assets/images/icons/menu.svg'
-import '../styles/Header.scss'
-import '../styles/HeaderResponsive.scss'
-import MenuMobile from "../components/MenuMobile";
+import Logo from '../../../assets/images/illustrations/logo.svg'
+import menu from '../../../assets/images/icons/ic_action_menu.svg'
+import '../../../styles/Header/Header.scss'
+import '../../../styles/Header/HeaderResponsive.scss'
 import { useState } from 'react';
+import MenuMobile from './MenuMobile'
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false)

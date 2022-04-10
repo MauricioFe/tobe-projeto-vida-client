@@ -1,4 +1,4 @@
-@import "globals";
+@import "../globals.scss";
 section#contacts {
 	@media screen and(max-width: $large-2) {
 		padding: 0.6rem 3.724rem;

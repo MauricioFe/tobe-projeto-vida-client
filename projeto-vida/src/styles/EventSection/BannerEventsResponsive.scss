@@ -1,4 +1,4 @@
-@import "globals";
+@import "../globals";
 section#banner-event {
 	@media screen and(max-width: $extra-large) {
 		#title-event {
@@ -16,8 +16,8 @@ section#banner-event {
 	}
 	@media screen and(max-width: $large-2) {
 		padding: 5.5rem 8.2rem;
-		background: url("../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
-		url("../assets/images/illustrations/points-events.svg") no-repeat 100% 114% var(--gray-10);
+		background: url("../../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
+		url("../../assets/images/illustrations/points-events.svg") no-repeat 100% 114% var(--gray-10);
 		#title-event {
 			h2 {
 				font-size: 4rem;
@@ -25,8 +25,8 @@ section#banner-event {
 		}
 	}
 	@media screen and(max-width: $medium) {
-		background: url("../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
-		url("../assets/images/illustrations/points-events.svg") no-repeat 100% 104% var(--gray-10);
+		background: url("../../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
+		url("../../assets/images/illustrations/points-events.svg") no-repeat 100% 104% var(--gray-10);
 		#title-event {
 			h2 {
 				font-size: 3rem;

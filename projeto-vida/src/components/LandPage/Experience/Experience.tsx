@@ -1,8 +1,8 @@
-import smile from '../assets/images/icons/Smile.svg'
-import capelo from '../assets/images/icons/Capelo.svg'
-import cursor from '../assets/images/icons/Cursor.svg'
-import '../styles/Experience.scss'
-import '../styles/ExperienceResponsive.scss'
+import smile from '../../../assets/images/icons/ic_emoji_smile.svg'
+import capelo from '../../../assets/images/icons/ic_capelo.svg'
+import cursor from '../../../assets/images/icons/ic_cursor.svg'
+import '../../../styles/Experience/Experience.scss'
+import '../../../styles/Experience/ExperienceResponsive.scss'
 
 export default function Experience() {
   return (

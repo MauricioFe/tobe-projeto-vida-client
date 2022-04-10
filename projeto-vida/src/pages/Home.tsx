@@ -1,12 +1,12 @@
-import BannerEvents from "../components/BannerEvents";
-import BannerHome from "../components/BannerHome";
-import BannerWarranty from "../components/BannerWarranty";
-import Benefits from "../components/Benefits";
-import Courses from "../components/Courses";
-import Contacts from "../components/Contacts";
-import Experience from "../components/Experience";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import BannerHome from "../components/LandPage/BannerHome/BannerHome";
+import BannerWarranty from "../components/LandPage/BannerWarranty/BannerWarranty";
+import Benefits from "../components/LandPage/Benefits/Benefits";
+import Contacts from "../components/LandPage/Contacts/Contacts";
+import Courses from "../components/LandPage/Courses/Courses";
+import BannerEvents from "../components/LandPage/EventSection/BannerEvents";
+import Experience from "../components/LandPage/Experience/Experience";
+import Footer from "../components/LandPage/Footer/Footer";
+import Header from "../components/LandPage/Header/Header";
 
 export default function Home() {
   return (
