@@ -13,14 +13,14 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <BannerHome/>
+        <BannerHome />
         <Experience />
         <Benefits />
         <BannerWarranty />
         <Courses />
-        <BannerEvents/>
-        <Contacts/>
-        <Footer/>
+        <BannerEvents />
+        <Contacts />
+        <Footer />
       </main>
     </>
   )

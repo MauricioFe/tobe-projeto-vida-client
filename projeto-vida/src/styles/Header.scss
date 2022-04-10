@@ -4,9 +4,20 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 	img#logo {
 		height: 100%;
+	}
+	.menu-icon{
+		display: none;
+		width: 5rem;
+		height: 5rem;
+		background-color: var(--blue-1);	
+		border-radius: 50%;
+	}
+	.menu-icon.active{
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	nav {
 		height: 100%;
