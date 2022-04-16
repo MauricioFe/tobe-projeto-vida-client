@@ -9,7 +9,7 @@ import Footer from "../components/LandPage/Footer/Footer";
 import Header from "../components/LandPage/Header/Header";
 
 export default function Home() {
-  return (
+  return ( 
     <>
       <Header />
       <main>

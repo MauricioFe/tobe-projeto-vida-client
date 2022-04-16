@@ -8,7 +8,6 @@ import MenuMobile from './MenuMobile'
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false)
-  console.log(showMenu)
   return (
     <header>
       <img src={Logo} alt="Logo" id='logo' />

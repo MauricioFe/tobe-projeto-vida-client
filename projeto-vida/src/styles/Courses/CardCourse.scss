@@ -1,0 +1,84 @@
+.animate {
+	transition: transform .35s ease-in-out;
+  }
+  
+  .animate.grow {
+	transform: scale(1.5);
+  }
+.card-carousel {
+	min-height: 65.3rem;
+	min-width: 51rem;
+	padding: 5rem 5.9rem 7.3rem;
+	border-radius: 2.4rem;
+	background: var(--white-2);
+	display: flex;
+	flex-direction: column;
+	gap: 5.6rem;
+	overflow-x: hidden;
+
+	.description-card {
+		display: flex;
+		flex-direction: column;
+		gap: 3.2rem;
+
+		h3 {
+			font-family: "hk-grotesk";
+			font-size: 3.6rem;
+			color: var(--gray-10);
+		}
+
+		p {
+			font-family: "Aller_Rg";
+			font-size: 2.4rem;
+			color: var(--gray-7);
+		}
+	}
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: "Aller_Rg";
+		max-width: 26.6rem;
+		max-height: 8.5rem;
+		font-size: 2rem;
+		padding: 3rem 10rem;
+		border: 2px solid var(--purple);
+		border-radius: 2.4rem;
+		color: var(--purple);
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			background: var(--purple);
+			color: var(--white-2);
+		}
+	}
+
+	&:nth-child(even) {
+		background: var(--blue-1);
+		margin-right: -4.3rem;
+
+		.description-card {
+			h3,
+			p {
+				color: var(--white-2);
+			}
+		}
+
+		a {
+			color: var(--white-2);
+			border-color: var(--white-2);
+
+			&:hover {
+				background: var(--white-2);
+				color: var(--blue-1);
+			}
+		}
+	}
+}
+.active{
+	visibility: block;
+}
+
+.inactive{
+	display: none;
+}
