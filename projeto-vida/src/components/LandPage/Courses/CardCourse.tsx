@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import '../../../styles/Courses/CardCourse.scss'
-import '../../../styles/Courses/CardCourseResponsive.scss'
+import '../../LandPage/Courses/Style/CardCourse.scss'
+import '../../LandPage/Courses/Style/CardCourseResponsive.scss'
 
 export default function CardCourse({ title, description, id, index }:
   { title: String, description: String, id: Number, index: number }) {

@@ -1,6 +1,6 @@
 import eventIcon from '../../../assets/images/icons/ic_event.svg'
-import '../../../styles/EventSection/EventCard.scss'
-import '../../../styles/EventSection/EventCardResponsive.scss'
+import '../../LandPage/EventSection/Style/EventCard.scss'
+import '../../LandPage/EventSection/Style/EventCardResponsive.scss'
 
 export default function EventCard() {
     return (

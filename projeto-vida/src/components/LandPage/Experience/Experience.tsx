@@ -1,8 +1,8 @@
 import smile from '../../../assets/images/icons/ic_emoji_smile.svg'
 import capelo from '../../../assets/images/icons/ic_capelo.svg'
 import cursor from '../../../assets/images/icons/ic_cursor.svg'
-import '../../../styles/Experience/Experience.scss'
-import '../../../styles/Experience/ExperienceResponsive.scss'
+import '../../LandPage/Experience/Style/Experience.scss'
+import '../../LandPage/Experience/Style/ExperienceResponsive.scss'
 
 export default function Experience() {
   return (

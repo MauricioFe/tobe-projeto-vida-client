@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from 'react';
-import '../../../styles/Courses/Courses.scss'
-import '../../../styles/Courses/CoursesResponsive.scss'
+import '../../LandPage/Courses/Style/Courses.scss'
+import '../../LandPage/Courses/Style/CoursesResponsive.scss'
 import ButtonSlide from './ButtonSlide';
 import CardCourse from "./CardCourse";
 import changeItemPosition from "../../../utils/ArrayUtils";

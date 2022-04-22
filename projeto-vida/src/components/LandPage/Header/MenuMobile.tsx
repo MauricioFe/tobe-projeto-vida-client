@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import back from '../../../assets/images/icons/ic_action_back.svg';
 import Logo from '../../../assets/images/illustrations/logo_branca.svg';
-import '../../../styles/Header/MenuMobile.scss'
+import '../../LandPage/Header/Style/MenuMobile.scss'
 export default function MenuMobile({ showMenu, setShowMenu }: { showMenu: Boolean, setShowMenu: React.Dispatch<React.SetStateAction<boolean>>; }) {
     return (
         <div id='menu-mobile' className={`${showMenu ? "active" : "inative"}`}>

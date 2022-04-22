@@ -1,8 +1,8 @@
 import illustra1 from '../../../assets/images/illustrations/benefit_illustra1.svg'
 import illustra2 from '../../../assets/images/illustrations/benefit_illustra2.svg'
 import illustra3 from '../../../assets/images/illustrations/benefit_illustra3.svg'
-import '../../../styles/Benefits/Benefits.scss'
-import '../../../styles/Benefits/BenefitsResponsive.scss'
+import '../../LandPage/Benefits/Style/Benefits.scss'
+import '../../LandPage/Benefits/Style/BenefitsResponsive.scss'
 
 export default function Benefits() {
   return (

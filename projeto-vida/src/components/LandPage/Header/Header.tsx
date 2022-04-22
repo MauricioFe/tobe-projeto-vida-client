@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import Logo from '../../../assets/images/illustrations/logo.svg'
 import menu from '../../../assets/images/icons/ic_action_menu.svg'
-import '../../../styles/Header/Header.scss'
-import '../../../styles/Header/HeaderResponsive.scss'
+import '../../LandPage/Header/Style/Header.scss'
+import '../../LandPage/Header/Style/HeaderResponsive.scss'
 import { useState } from 'react';
 import MenuMobile from './MenuMobile'
 

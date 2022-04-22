@@ -1,5 +1,5 @@
-import '../../../styles/BannerWarranty/BannerWarranty.scss'
-import '../../../styles/BannerWarranty/BannerWarrantyResponsive.scss'
+import '../../LandPage/BannerWarranty/Style/BannerWarranty.scss'
+import '../../LandPage/BannerWarranty/Style/BannerWarrantyResponsive.scss'
 
 export default function BannerWarranty () {
   return (

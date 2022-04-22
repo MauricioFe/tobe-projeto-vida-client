@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import pointsImg from '../../../assets/images/illustrations/points.svg'
 import allUnderControlImg from '../../../assets/images/illustrations/all_under_control.svg'
-import "../../../styles/Home/BannerHome.scss"
-import "../../../styles/Home/BannerHomeResponsive.scss"
+import "../../LandPage/BannerHome/Style/BannerHome.scss"
+import "../../LandPage/BannerHome/Style/BannerHomeResponsive.scss"
 
 export default function BannerHome() {
   return (
