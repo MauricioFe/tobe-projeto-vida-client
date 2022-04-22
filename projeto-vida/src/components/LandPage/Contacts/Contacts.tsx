@@ -1,6 +1,6 @@
 import illustrationContacts from '../../../assets/images/illustrations/illustra_section-6.svg'
-import '../../LandPage/Contacts/Style/Contact.scss'
-import '../../LandPage/Contacts/Style/ContactsResponsive.scss'
+import './Style/Contacts.scss'
+import './Style/ContactsResponsive.scss'
 
 export default function Contacts() {
   return (

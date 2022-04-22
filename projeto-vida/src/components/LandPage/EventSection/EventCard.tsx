@@ -2,20 +2,20 @@ import eventIcon from '../../../assets/images/icons/ic_event.svg'
 import '../../LandPage/EventSection/Style/EventCard.scss'
 import '../../LandPage/EventSection/Style/EventCardResponsive.scss'
 
-export default function EventCard() {
+export default function EventCard({ title, description, date }: { title: string, description: string, date: string }) {
     return (
         <div id="event-card-container">
             <div id="date-time-event">
-                <span>Sex 10/03 14:00</span>
+                <span>{date}</span>
             </div>
             <div id="event-card">
                 <div id="event-card-icon">
                     <img src={eventIcon} alt="event" />
                 </div>
                 <div id="event-card-content">
-                    <h2>Computação cognitiva</h2>
+                    <h2>{title}</h2>
                     <p>
-                        Workshop voltado para inteligência artificial que explicará como elas mudaram o mercado de trabalho
+                        {description}
                     </p>
                 </div>
             </div>

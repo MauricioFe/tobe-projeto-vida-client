@@ -1,4 +1,4 @@
-@import "../globals";
+@import "../../../../styles/globals.scss";
 div#event-card-container {
     @media screen and(max-width: $extra-large) {
         #event-card {

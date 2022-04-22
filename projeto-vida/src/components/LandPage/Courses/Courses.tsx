@@ -61,8 +61,62 @@ export default function Courses() {
       description: "Aprenda a organizar sua fala e transmitir sua mensagem de forma clara, objetiva e envolvente, conquistando seu público e expandindo seus horizontes."
     },
   ]
-  const slideButtonList: Array<SlideButton> = []
-
+  let slideButtonList: Array<SlideButton> = []
+  if (window.screen.width > 934) {
+    slideButtonList = [
+      {
+        id: 1,
+        cardIdList: [allCourseList[0].id, allCourseList[1].id]
+      },
+      {
+        id: 2,
+        cardIdList: [allCourseList[2].id, allCourseList[3].id]
+      },
+      {
+        id: 3,
+        cardIdList: [allCourseList[4].id, allCourseList[5].id]
+      },
+      {
+        id: 4,
+        cardIdList: [allCourseList[6].id, allCourseList[7].id]
+      },
+    ]
+  } else {
+    slideButtonList = [
+      {
+        id: 1,
+        cardIdList: [allCourseList[0].id]
+      },
+      {
+        id: 2,
+        cardIdList: [allCourseList[1].id]
+      },
+      {
+        id: 3,
+        cardIdList: [allCourseList[2].id]
+      },
+      {
+        id: 4,
+        cardIdList: [allCourseList[3].id]
+      },
+      {
+        id: 5,
+        cardIdList: [allCourseList[4].id]
+      },
+      {
+        id: 6,
+        cardIdList: [allCourseList[5].id]
+      },
+      {
+        id: 7,
+        cardIdList: [allCourseList[6].id]
+      },
+      {
+        id: 8,
+        cardIdList: [allCourseList[7].id]
+      },
+    ]
+  }
   let arrayParId: Array<number> = []
   let arrayImparId: Array<number> = []
   for (let j = 0; j < allCourseList.length; j++) {
@@ -77,19 +131,18 @@ export default function Courses() {
   const [activeButton, setActiveButton] = useState(0)
   const [slideButtons, setSlideButtons] = useState<SlideButton[]>(slideButtonList);
   useEffect(() => {
+    defineSizeOfSlideButtonListByScreen(window.innerWidth)
     const resizeListener = () => {
-      setScreenWidth(window.screen.width)
-      defineSizeOfSlideButtonListByScreen(window.screen.width)
-      setSlideButtons(slideButtonList)
+      console.log("width normal "+window.screen.width)
+      console.log("inner width "+window.innerWidth)     
+        setScreenWidth(window.innerWidth)
+        defineSizeOfSlideButtonListByScreen(window.innerWidth)
     };
     window.addEventListener('resize', resizeListener);
     return () => {
-    window.removeEventListener('resize', resizeListener);  
-      console.log(window.screen.width)
+      window.removeEventListener('resize', resizeListener);
     }
   }, [])
-  
-  
   const handleCarouselAction = (ActivesCardsId: Array<number>, event: React.MouseEvent) => {
     var newCourses = changeItemPosition(allCourseList, ActivesCardsId)
     setCourses(newCourses)
@@ -134,13 +187,17 @@ export default function Courses() {
   function fillSlideButtonList(division: number) {
     slideButtonList.length = 0
     for (let i = 0; i < allCourseList.length / division; i++) {
-      console.log("divisão "+division)
-      slideButtonList.push({ id: i + 1, cardIdList: [arrayImparId[i], arrayParId[i]] });
+      if (division === 2) {
+        slideButtonList.push({ id: i + 1, cardIdList: [arrayImparId[i], arrayParId[i]] });
+      } else {
+        slideButtonList.push({ id: i + 1, cardIdList: [allCourseList[i].id] });
+      }
     }
+    setSlideButtons(slideButtonList)
   }
 
-  function defineSizeOfSlideButtonListByScreen(teste: number) {
-    if (teste <= 934) {
+  function defineSizeOfSlideButtonListByScreen(width: number) {
+    if (width <= 934) {
       fillSlideButtonList(1)
     } else {
       fillSlideButtonList(2)

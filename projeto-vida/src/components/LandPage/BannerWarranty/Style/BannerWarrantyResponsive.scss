@@ -1,4 +1,4 @@
-@import "../globals.scss";
+@import "../../../../styles/globals.scss";
 section#banner-warranty {
 	@media screen and (max-width: $extra-large) {
 		#description-warranty {
@@ -14,9 +14,9 @@ section#banner-warranty {
 	}
 	@media screen and (max-width: $large) {
 		#description-warranty {
-			background: url("../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 0 / 57.5rem,
-				url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 23.3rem,
-				url("../../assets/images/illustrations/points-warranty2.svg") no-repeat 100% 0 var(--gray-10);
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 0 / 57.5rem,
+				url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 23.3rem,
+				url("../../../../assets/images/illustrations/points-warranty2.svg") no-repeat 100% 0 var(--gray-10);
 		}
 
 		#description-warranty {
@@ -34,9 +34,9 @@ section#banner-warranty {
 	@media screen and (max-width: $large-2) {
 		#description-warranty {
 			padding: 10.5rem 11.5rem;
-			background: url("../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 105% / 35.5rem,
-				url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 23.3rem,
-				url("../../assets/images/illustrations/points-warranty2.svg") no-repeat 100% 0 var(--gray-10);
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 105% / 35.5rem,
+				url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 23.3rem,
+				url("../../../../assets/images/illustrations/points-warranty2.svg") no-repeat 100% 0 var(--gray-10);
 		}
 
 		#description-warranty {
@@ -54,7 +54,7 @@ section#banner-warranty {
 	@media screen and (max-width: $medium) {
 		#description-warranty {
 			padding: 7.5rem 7.5rem;
-			background: url("../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 80% / 28.5rem,
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 80% / 28.5rem,
 				var(--gray-10);
 		}
 
@@ -78,8 +78,8 @@ section#banner-warranty {
 			height: 58rem;
 			
 			padding: 7.5rem 2rem;
-			background: url("../../assets/images/illustrations/illustra_warranty.svg") no-repeat 100% 100% / 35rem,
-			url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 100% -4.9rem,
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 100% 100% / 35rem,
+			url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 100% -4.9rem,
 				var(--gray-10);
 		}
 
