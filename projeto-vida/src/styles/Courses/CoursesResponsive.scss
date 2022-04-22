@@ -105,26 +105,15 @@ section#carousel {
 		}
 
 		.cards-carousel {
-			gap: 4rem;
-
+			display: flex;
+			max-width: max-content;
+			position: static;
+			margin: 0 auto 2rem auto;
+			width: 95%;
 			.card-carousel {
-				min-height: 50.3rem;
-				min-width: 33.5rem;
-				padding: 4rem 4rem 7.3rem;
-				gap: 5.6rem;
-
-				.description-card {
-					h3 {
-						font-size: 2.6rem;
-					}
-
-					p {
-						font-size: 1.6rem;
-					}
-				}
-				a {
-					max-width: 20.6rem;
-					padding: 2rem 5rem;
+				min-width: 100%;
+				&:nth-child(even) {
+					display: none;
 				}
 			}
 		}

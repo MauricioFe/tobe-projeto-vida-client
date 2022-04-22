@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 import '../../../styles/Courses/Courses.scss'
 import '../../../styles/Courses/CoursesResponsive.scss'
 import ButtonSlide from './ButtonSlide';
@@ -72,15 +72,30 @@ export default function Courses() {
       arrayParId = [...arrayParId, allCourseList[j].id];
     }
   }
-  for (let i = 0; i < allCourseList.length / 2; i++) {
-    slideButtonList.push({ id: i + 1, cardIdList: [arrayImparId[i], arrayParId[i]] })
-  }
+  const [screenWidth, setScreenWidth] = useState(0)
   const [courses, setCourses] = useState<Course[]>([allCourseList[0], allCourseList[1]]);
-  const [slideButtons, _] = useState<SlideButton[]>(slideButtonList);
-  const handlerCarouselAction = (ActivesCardsId: Array<number>) => {
+  const [activeButton, setActiveButton] = useState(0)
+  const [slideButtons, setSlideButtons] = useState<SlideButton[]>(slideButtonList);
+  useEffect(() => {
+    const resizeListener = () => {
+      setScreenWidth(window.screen.width)
+      defineSizeOfSlideButtonListByScreen(window.screen.width)
+      setSlideButtons(slideButtonList)
+    };
+    window.addEventListener('resize', resizeListener);
+    return () => {
+    window.removeEventListener('resize', resizeListener);  
+      console.log(window.screen.width)
+    }
+  }, [])
+  
+  
+  const handleCarouselAction = (ActivesCardsId: Array<number>, event: React.MouseEvent) => {
     var newCourses = changeItemPosition(allCourseList, ActivesCardsId)
     setCourses(newCourses)
+    setActiveButton(parseInt(event.currentTarget.id.slice(-1)))
   }
+
   return (
     <section id="carousel">
       <div className="container">
@@ -103,10 +118,32 @@ export default function Courses() {
       <div id="slider">
         {
           slideButtons.map((item, index) => {
-            return <ButtonSlide idCard={item.cardIdList} key={item.id} index={index} switchCardsCarousel={handlerCarouselAction} />
+            return <ButtonSlide idCard={item.cardIdList}
+              key={item.id}
+              index={index}
+              switchCardsCarousel={handleCarouselAction}
+              activeButton={activeButton} />
           })
         }
       </div>
     </section>
   )
+
+  //O parâmetro division é para definir de acordo com o tamanho
+  // da tela para definir o número de bullets de slids
+  function fillSlideButtonList(division: number) {
+    slideButtonList.length = 0
+    for (let i = 0; i < allCourseList.length / division; i++) {
+      console.log("divisão "+division)
+      slideButtonList.push({ id: i + 1, cardIdList: [arrayImparId[i], arrayParId[i]] });
+    }
+  }
+
+  function defineSizeOfSlideButtonListByScreen(teste: number) {
+    if (teste <= 934) {
+      fillSlideButtonList(1)
+    } else {
+      fillSlideButtonList(2)
+    }
+  }
 }
