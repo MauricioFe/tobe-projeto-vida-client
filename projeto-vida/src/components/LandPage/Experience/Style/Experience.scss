@@ -1,0 +1,93 @@
+section#experience {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: var(--gray-2);
+	border-radius: 5.5rem;
+	padding: 10rem 6.3rem;
+	margin: 17.4rem 7.5rem;
+
+	h2 {
+		font-family: 'hk-grotesk';
+		font-size: 6.4rem;
+		text-align: center;
+		max-width: 76.9rem;
+		margin-bottom: 1.9rem;
+
+		span {
+			color: var(--purple);
+		}
+	}
+
+	h4 {
+		font-family: 'Aller_rg';
+		font-size: 3.6rem;
+		text-align: center;
+		color: var(--gray-7);
+		margin-bottom: 8rem;
+	}
+
+	.experience-cards {
+		margin-bottom: 1.3rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 5.4rem;
+
+		div.experience-card {
+			max-width: 51.4rem;
+			border-radius: 2.4rem;
+			padding: 4rem 4.3rem;
+			background: var(--white-2);
+			display: flex;
+			flex-direction: column;
+			gap: 2.6rem;
+
+			div.card-title {
+				display: flex;
+				gap: 2.4rem;
+
+				div.experience-icon {
+					width: 5.5rem;
+					height: 5.5rem;
+					background: var(--blue-3);
+					border-radius: 1.7rem;
+					display: flex;
+					justify-content: center;
+
+					> img {
+						width: 1.95rem;
+					}
+				}
+
+				h5 {
+					font-family: 'Aller_Rg';
+					font-size: 2.4rem;
+					flex-grow: 1;
+					align-self: center;
+				}
+			}
+
+			p {
+				font-family: 'Aller_Lt';
+				font-size: 2.4rem;
+			}
+
+			&:first-child {
+				p {
+					color: var(--gray-7);
+				}
+			}
+
+			&:first-of-type + .experience-card {
+				background-color: var(--blue-1);
+				color: var(--white-2);
+			}
+
+			&:first-of-type + .experience-card + .experience-card {
+				background-color: var(--purple);
+				color: var(--white-2);
+			}
+		}
+	}
+}

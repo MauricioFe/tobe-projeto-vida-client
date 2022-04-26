@@ -1,0 +1,81 @@
+@import "../../../../styles/globals";
+@media screen and (max-width: $extra-large) {
+	.card-carousel {
+		min-height: 55.3rem;
+		min-width: 41rem;
+		padding: 5rem 5rem 7.3rem;
+		gap: 5.6rem;
+
+		.description-card {
+			h3 {
+				font-size: 3rem;
+			}
+
+			p {
+				font-size: 2rem;
+			}
+		}
+		a {
+			padding: 2.5rem 10rem;
+		}
+	}
+}
+@media screen and (max-width: $large) {
+	.card-carousel {
+		min-height: 50.3rem;
+		min-width: 33.5rem;
+		padding: 4rem 4rem 7.3rem;
+		gap: 5.6rem;
+
+		.description-card {
+			h3 {
+				font-size: 2.6rem;
+			}
+
+			p {
+				font-size: 1.6rem;
+			}
+		}
+		a {
+			max-width: 20.6rem;
+			padding: 2rem 5rem;
+		}
+	}
+}
+
+@media screen and (max-width: $large-2) {
+	.card-carousel {
+		min-height: 50.3rem;
+		min-width: 33.5rem;
+		padding: 4rem 4rem 7.3rem;
+		gap: 5.6rem;
+
+		.description-card {
+			h3 {
+				font-size: 2.6rem;
+			}
+
+			p {
+				font-size: 1.6rem;
+			}
+		}
+		a {
+			max-width: 20.6rem;
+			padding: 2rem 5rem;
+		}
+	}
+}
+@media screen and (max-width: $medium) {
+	.card-carousel {
+		min-width: 100%;
+		&:nth-child(even) {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: $small) {
+	.card-carousel {
+		min-width: 100%;
+	}
+}

@@ -1,0 +1,103 @@
+@import "../../../../styles/globals.scss";
+section#banner-warranty {
+	@media screen and (max-width: $extra-large) {
+		#description-warranty {
+			h2 {
+				font-size: 4.4rem;
+			}
+
+			p {
+				font-size: 2.8rem;
+				max-width: 58rem;
+			}
+		}
+	}
+	@media screen and (max-width: $large) {
+		#description-warranty {
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 0 / 57.5rem,
+				url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 23.3rem,
+				url("../../../../assets/images/illustrations/points-warranty2.svg") no-repeat 100% 0 var(--gray-10);
+		}
+
+		#description-warranty {
+			h2 {
+				font-size: 4rem;
+			}
+
+			p {
+				font-size: 2.2rem;
+				max-width: 42rem;
+			}
+		}
+	}
+
+	@media screen and (max-width: $large-2) {
+		#description-warranty {
+			padding: 10.5rem 11.5rem;
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 105% / 35.5rem,
+				url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 23.3rem,
+				url("../../../../assets/images/illustrations/points-warranty2.svg") no-repeat 100% 0 var(--gray-10);
+		}
+
+		#description-warranty {
+			h2 {
+				font-size: 3rem;
+				margin-left: 0;
+			}
+
+			p {
+				font-size: 1.8rem;
+				max-width: 35rem;
+			}
+		}
+	}
+	@media screen and (max-width: $medium) {
+		#description-warranty {
+			padding: 7.5rem 7.5rem;
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 105% 80% / 28.5rem,
+				var(--gray-10);
+		}
+
+		#description-warranty {
+			h2 {
+				font-size: 2.6rem;
+				margin-left: 0;
+			}
+
+			p {
+				font-size: 1.5rem;
+				max-width: 28rem;
+			}
+		}
+	}
+
+	@media screen and (max-width: $small) {
+		margin:7rem  auto;
+		width: 90%;
+		#description-warranty {
+			height: 58rem;
+			
+			padding: 7.5rem 2rem;
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 100% 100% / 35rem,
+			url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 100% -4.9rem,
+				var(--gray-10);
+		}
+
+		#description-warranty {
+			width: 100%;
+			margin: 0 auto;
+			h2 {
+				font-size: 4rem;
+				margin-left: 0;
+				line-height: 6rem;
+			}
+
+			p {
+				font-size:2rem;
+				margin-top: 2rem;
+				max-width: 28rem;
+				line-height: 3rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+@import "../../../../styles/globals.scss";
+section#banner-event {
+	@media screen and(max-width: $extra-large) {
+		#title-event {
+			h2 {
+				font-size: 6rem;
+			}
+		}
+	}
+	@media screen and(max-width: $large) {
+		#title-event {
+			h2 {
+				font-size: 5rem;
+			}
+		}
+	}
+	@media screen and(max-width: $large-2) {
+		padding: 5.5rem 8.2rem;
+		background: url("../../../../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
+		url("../../../../assets/images/illustrations/points-events.svg") no-repeat 100% 114% var(--gray-10);
+		#title-event {
+			h2 {
+				font-size: 4rem;
+			}
+		}
+	}
+	@media screen and(max-width: $medium) {
+		background: url("../../../../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
+		url("../../../../assets/images/illustrations/points-events.svg") no-repeat 100% 104% var(--gray-10);
+		#title-event {
+			h2 {
+				font-size: 3rem;
+			}
+		}
+		#event-list-cards {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			margin-top: 2rem;
+		}
+	}
+
+	@media screen and(max-width: $small) {
+		background: var(--gray-10);
+		margin: 7rem auto;
+		padding: 5.5rem 3.2rem;
+		width: 90%;
+		#title-event {
+			h2 {
+				font-size: 2.2rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,224 @@
+@import "../../../../styles/globals";
+section#carousel {
+	@media screen and (max-width: $extra-large) {
+		padding: 11.8rem;
+		div#carousel-presentation {
+			div#description {
+				margin-right: 2.2rem;
+				h2 {
+					font-size: 4.5rem;
+					max-width: 35rem;
+				}
+
+				h4 {
+					font-size: 3.3rem;
+					color: var(--gray-7);
+					max-width: 35rem;
+					margin-top: 6.6rem;
+				}
+			}
+		}
+
+		.cards-carousel {
+			gap: 5rem;
+			max-width: 52%;
+
+			.card-carousel {
+				min-height: 55.3rem;
+				min-width: 41rem;
+				padding: 5rem 5rem 7.3rem;
+				gap: 5.6rem;
+
+				.description-card {
+					h3 {
+						font-size: 3rem;
+					}
+
+					p {
+						font-size: 2rem;
+					}
+				}
+				a {
+					padding: 2.5rem 10rem;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $large) {
+		padding: 11.8rem;
+		div#carousel-presentation {
+			div#description {
+				margin-right: 2.2rem;
+				h2 {
+					font-size: 4.1rem;
+					max-width: 35rem;
+				}
+
+				h4 {
+					font-size: 2.8rem;
+				}
+			}
+		}
+		.cards-carousel {
+			gap: 4rem;
+
+			.card-carousel {
+				min-height: 50.3rem;
+				min-width: 33.5rem;
+				padding: 4rem 4rem 7.3rem;
+				gap: 5.6rem;
+
+				.description-card {
+					h3 {
+						font-size: 2.6rem;
+					}
+
+					p {
+						font-size: 1.6rem;
+					}
+				}
+				a {
+					max-width: 20.6rem;
+					padding: 2rem 5rem;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: $large-2) {
+		padding: 11.8rem;
+		div#carousel-presentation {
+			div#description {
+				margin-right: 2.2rem;
+				h2 {
+					font-size: 3.5rem;
+					max-width: 35rem;
+				}
+
+				h4 {
+					font-size: 2rem;
+				}
+			}
+			div#slider {
+				margin-right: 2.2rem;
+			}
+		}
+
+		.cards-carousel {
+			display: flex;
+			max-width: max-content;
+			position: static;
+			margin: 0 auto 2rem auto;
+			width: 95%;
+			.card-carousel {
+				min-width: 100%;
+				&:nth-child(even) {
+					display: none;
+				}
+			}
+		}
+		#slider {
+			span {
+				width: 5.1rem;
+				&:hover {
+					width: 7.5rem;
+				}
+
+				&.active {
+					width: 7.5rem;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $medium) {
+		.container {
+			flex-direction: column;
+		}
+		div#carousel-presentation {
+			div#description {
+				margin-right: 2.2rem;
+				h2 {
+					font-size: 4.1rem;
+					max-width: 60rem;
+				}
+
+				h4 {
+					font-size: 2.8rem;
+					max-width: 60rem;
+				}
+				margin-bottom: 5rem;
+			}
+		}
+
+		.cards-carousel {
+			display: flex;
+			max-width: max-content;
+			position: static;
+			margin: 0 auto;
+			width: 95%;
+			.card-carousel {
+				min-width: 100%;
+				&:nth-child(even) {
+					display: none;
+				}
+			}
+		}
+		#slider {
+			margin: 3rem auto;
+			width: 90%;
+			span {
+				width: 3.1rem;
+				&:hover {
+					width: 5.5rem;
+				}
+
+				&.active {
+					width: 5.5rem;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: $small) {
+		width: 95%;
+		margin: 7.5rem auto;
+		padding: 7.8rem 2rem;
+		align-items: center;
+		justify-content: center;
+
+		#slider {
+			span {
+				width: 2.1rem;
+				&:hover {
+					width: 4.5rem;
+				}
+
+				&.active {
+					width: 4.5rem;
+				}
+			}
+		}
+		div#carousel-presentation {
+			position: static;
+			div#description {
+				margin-right: 0;
+				h2 {
+					font-size: 2.5rem;
+					max-width: 60rem;
+				}
+
+				h4 {
+					font-size: 1.89rem;
+					max-width: 60rem;
+					margin-top: 5rem;
+				}
+				margin-bottom: 5rem;
+			}
+		}
+		.cards-carousel {
+			.card-carousel {
+				min-width: 100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+section#contacts {
+	padding: 0.6rem 9.724rem;
+	margin: 7rem auto 7rem auto;
+	width: 90%;
+	.title-contacts {
+		font-family: "HK Grotesk";
+		font-style: normal;
+		font-weight: 700;
+		text-align: left;
+		font-size: 5rem;
+		line-height: 7rem;
+		margin-bottom: 10rem;
+		color: var(--gray-9);
+		span {
+			color: var(--purple);
+		}
+	}
+	div.contact {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		> img {
+			width: 50%;
+		}
+		.form-contact {
+			width: 40%;
+		}
+		.input-block {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 16px;
+		}
+
+		.form-contact form .input-block label {
+			display: flex;
+			color: var(--blue-1);
+			margin-bottom: 8px;
+			font-family: "hk-grotesk";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 23px;
+		}
+		.form-contact form .input-block input,
+		.form-contact form .input-block textarea {
+			width: 100%;
+			background: var(--gray-2);
+			border-radius: 1rem;
+			outline: none;
+			color: var(--gray-9);
+			font-size: 2rem;
+		}
+
+		.form-contact form .input-block input {
+			height: 64px;
+			padding: 0 16px;
+		}
+		.form-contact form .input-block textarea {
+			min-height: 120px;
+			max-height: 240px;
+			resize: vertical;
+			padding: 16px;
+			line-height: 28px;
+		}
+
+		button.confirm-button {
+			align-self: flex-end;
+			font-family: "Aller_Rg";
+			letter-spacing: .2rem;
+			margin-left: auto;
+			margin-top: 44px;
+			width: 20rem;
+			height: 64px;
+			border: 0;
+			cursor: pointer;
+			background: var(--blue-1);
+			border-radius: 24px;
+			color: #ffffff;
+			font-weight: 800;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: background-color 0.2s;
+		}
+	}
+}

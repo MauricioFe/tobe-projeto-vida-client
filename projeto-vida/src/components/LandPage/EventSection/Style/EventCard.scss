@@ -1,0 +1,63 @@
+div#event-card-container {
+    max-width: 30%;
+    #date-time-event {
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        span {
+            font-family: "aller_lt";
+            font-size: 1.5rem;
+            line-height: 1.9rem;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            color: var(--gray-1);
+        }
+    }
+    #event-card {
+        background: var(--gray-8);
+        border-radius: 2.4rem;
+        padding: 2.5rem;
+        height: 30.25rem;
+
+        #event-card-icon {
+            width: 5.5rem;
+            height: 5.5rem;
+            background: var(--gray-10);
+            border-radius: 1.7rem;
+            display: flex;
+            justify-content: center;
+
+            > img {
+                width: 1.95rem;
+            }
+        }
+
+        #event-card-content {
+            display: flex;
+            margin-top: 3rem;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 60%;
+            h2 {
+                color: var(--gray-1);
+                font-family: "hk-grotesk";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 2rem;
+                line-height: 2.5rem;
+                text-align: left;
+                letter-spacing: 0.1em;
+            }
+            p {
+                font-family: "Aller Light";
+                font-style: normal;
+                font-weight: 400;
+                margin-top: 2rem;
+                font-size: 1.7rem;
+                line-height: 141.5%;
+                text-align: justify;
+                color: var(--white-2);
+            }
+        }
+    }
+}

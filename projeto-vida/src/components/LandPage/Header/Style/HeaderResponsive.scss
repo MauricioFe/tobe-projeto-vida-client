@@ -1,0 +1,29 @@
+@import "../../../../styles/globals.scss";
+header {
+	@media screen and (max-width: $extra-large) {
+		height: 17rem;
+		margin: 4.9rem 15.4rem;
+	}
+	@media screen and (max-width: $large-2) {
+		.menu-icon {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+		}
+		nav {
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: $medium) {
+		margin: 4.9rem 5.4rem;
+	}
+
+	@media screen and (max-width: $small) {
+		margin: 4.9rem 3.4rem;
+		img#logo {
+			height: 80%;
+		}
+	}
+}
