@@ -1,4 +1,7 @@
 import illustrationContacts from '../../../assets/images/illustrations/illustra_section-6.svg'
+import Button from '../../Generic/Buttons/Button'
+import InputText from '../../Generic/Inputs/InputText'
+import TextArea from '../../Generic/Inputs/TextArea'
 import './Style/Contacts.scss'
 import './Style/ContactsResponsive.scss'
 
@@ -7,31 +10,48 @@ export default function Contacts() {
     <section id="contacts">
       <h2 className='title-contacts'>Ficou com alguma dúvida?<br />Entre em contato <span>conosco</span></h2>
       <div className="contact">
-      <img src={illustrationContacts} alt="Contact us illustration" />
+        <img src={illustrationContacts} alt="Contact us illustration" />
         <div className="form-contact">
           <form>
-            <div className="input-block">
-              <label htmlFor="name">Seu Nome</label>
-              <input id="name" type="text" />
-            </div>
+            <InputText
+              name='name'
+              id='name'
+              label='Seu Nome'
+              type={"text"}
+            />
 
-            <div className="input-block">
-              <label htmlFor="email">E-mail</label>
-              <input id="email" type="email" />
-            </div>
+            <InputText
+              name='email'
+              id='email'
+              label='E-mail'
+              type={"email"}
+            />
 
-            <div className="input-block">
-              <label htmlFor="subject">Assunto</label>
-              <input id="subject" type="text" />
-            </div>
+            <InputText
+              name='phone'
+              id='phone'
+              label='Celular'
+              type={"tel"}
+            />
 
-            <div className="input-block">
-              <label htmlFor="message">Sua mensagem</label>
-              <textarea id="message" />
-            </div>
-            <button className="confirm-button" type="submit">
-              Enviar
-            </button>
+            <InputText
+              name='subject'
+              id='subject'
+              label='Assunto'
+              type={"text"}
+            />
+
+            <TextArea
+              name='message'
+              id='message'
+              label='Sua Mensagem'
+              type={"text"}
+            />
+            <Button
+              className='confirm-button'
+              label="Enviar"
+              type={"submit"}
+            />
           </form>
         </div>
       </div>

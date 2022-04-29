@@ -17,13 +17,13 @@ export default function BannerEvents() {
       date:"SEG 04/07 14:00 até SEX 10/03 17:00",
     },
     {
-      id: 1,
+      id: 2,
       title:"Computação cognitiva",
       description:"Workshop voltado para inteligência artificial que explicará como elas mudaram o mercado de trabalho",
       date:"SEX 15/07 14:00"
     },
     {
-      id: 1,
+      id: 3,
       title:"Imersão inglês",
       description:"Uma semana de workshop com conteúdos, palestras e jogos voltados para o aprendizado do ingês",
       date:"SEX 18/07 08:00"
@@ -38,7 +38,7 @@ export default function BannerEvents() {
       <div id="event-list-cards">
         {
           eventList.map((item,_) =>{
-            return <EventCard title={item.title} description={item.description} date={item.date} />
+            return <EventCard key={item.id} title={item.title} description={item.description} date={item.date} />
           })
         }
       </div>
