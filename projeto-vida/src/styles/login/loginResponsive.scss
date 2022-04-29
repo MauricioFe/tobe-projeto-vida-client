@@ -1,0 +1,36 @@
+@import "../globals";
+main#login {
+    @media screen and (max-width: $large-2) {
+        background: url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 100% 0,
+            url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 100%;
+        .illustration-section {
+            display: none;
+        }
+        .form-section {
+            height: 100vh;
+            flex-grow: 1;
+            margin: 0 5rem;
+        }
+        .copy-section {
+            justify-self: flex-end;
+        }
+    }
+
+    @media screen and (max-width: $small) {
+        .header-login{
+            margin-top: 3rem;
+        }
+        background: initial;
+        .form-section {
+            padding: 0;
+            margin: 0 2rem;
+            form{
+                .confirm-button{
+                    width: 18rem;
+                    margin-right: 0;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+main#login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    background: url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 47.6% 0,
+    url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 0% 100%;
+    .header-login{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            font-size: 2rem;
+            font-family: "aller";
+            color: var(--purple);
+        }
+    }
+    .form-section {
+        width: 40%;
+        padding: 7.5rem;
+        height: 100vh;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        .title-login {
+            margin: 2rem 0;
+            h3 {
+                font-family: "hk-grotesk";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 5.4rem;
+                text-align: left;
+                line-height: 63px;
+                margin: 2rem 0;
+            }
+            span {
+                color: var(--gray-7);
+                font-family: "aller";
+                font-size: 2.2rem;
+            }
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            .confirm-button{
+                margin-right: auto;
+                margin-left: 0;
+            }
+        }
+
+        .copy-section {
+            margin-top: 3rem;
+            span {
+                font-family: "aller";
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 150%;
+                color: var(--gray-6);
+            }
+        }
+    }
+    .illustration-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 7.5rem;
+        height: 100vh;
+        width: 50%;
+        background: url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 101% 40.7rem, 
+        url("../../assets/images/illustrations/points-warranty1.svg") no-repeat 2% 103%
+        var(--gray-10);
+        .title-login-illustration {
+            h3 {
+                font-family: "hk-grotesk";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 4.5rem;
+                line-height: 83px;
+                max-width: 65rem;
+                text-align: left;
+                color: var(--gray-1);
+            }
+            h3 span {
+                color: var(--purple);
+            }
+        }
+        .illustration {
+            height: 65%;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
