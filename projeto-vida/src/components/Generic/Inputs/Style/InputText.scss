@@ -1,0 +1,39 @@
+.input-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.input-block label {
+    display: flex;
+    color: var(--blue-1);
+    margin-bottom: 8px;
+    font-family: "hk-grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.input-block input,
+.input-block textarea {
+    width: 100%;
+    background: var(--gray-2);
+    border-radius: 1rem;
+    outline: none;
+    color: var(--gray-9);
+    font-size: 2rem;
+}
+
+.input-block input {
+    height: 64px;
+    padding: 0 16px;
+}
+
+.input-block textarea {
+    min-height: 120px;
+    max-height: 240px;
+    resize: vertical;
+    padding: 16px;
+    line-height: 28px;
+}

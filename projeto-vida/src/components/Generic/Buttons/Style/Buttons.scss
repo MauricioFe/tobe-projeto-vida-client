@@ -1,0 +1,26 @@
+@import "../../../../styles/globals.scss";
+.confirm-button {
+    align-self: flex-end;
+    font-family: "Aller_Rg";
+    letter-spacing: 0.2rem;
+    margin-left: auto;
+    margin-top: 44px;
+    width: 20rem;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background: var(--blue-1);
+    border-radius: 24px;
+    color: #ffffff;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+@media screen and(max-width: $medium) {
+    .confirm-button {
+        width: 18rem;
+    }
+}
