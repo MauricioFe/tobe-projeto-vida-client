@@ -1,7 +1,7 @@
 @import "../../../../styles/globals.scss";
 #banner-home {
 	#content-banner-home {
-		@media screen and (max-width: $extra-large) {
+		@media screen and (max-width: $w1536) {
 			.content-banner-img {
 				img {
 					width: 65rem;
@@ -25,7 +25,7 @@
 				}
 			}
 		}
-		@media screen and (max-width: $large) {
+		@media screen and (max-width: $w1280) {
 			.content-banner-img {
 				img {
 					width: 55rem;
@@ -50,7 +50,7 @@
 				}
 			}
 		}
-		@media screen and (max-width: $medium) {
+		@media screen and (max-width: $w934) {
 			margin: auto;
 			.content-banner-img {
 				display: none;
@@ -61,7 +61,7 @@
 				text-align: center;
 			}
 		}
-		@media screen and (max-width: $small) {
+		@media screen and (max-width: $w425) {
 			align-items: center;
 			width: 90%;
 			margin: 0 auto;
@@ -93,7 +93,7 @@
 			}
 		}
 	}
-	@media screen and (max-width: $extra-large) {
+	@media screen and (max-width: $w1536) {
 		.img-points-1 {
 			bottom: -2rem;
 		}
@@ -101,7 +101,7 @@
 			top: 18rem;
 		}
 	}
-	@media screen and (max-width: $large) {
+	@media screen and (max-width: $w1280) {
 		.img-points-1 {
 			bottom: 3rem;
 		}
@@ -109,7 +109,7 @@
 			top: 18rem;
 		}
 	}
-	@media screen and (max-width: $large-2) {
+	@media screen and (max-width: $w1024) {
 		.img-points-1 {
 			bottom: 50rem;
 		}
@@ -117,7 +117,7 @@
 			top: 23rem;
 		}
 	}
-	@media screen and (max-width: $medium) {
+	@media screen and (max-width: $w934) {
 		margin-top: 0;
 		.img-points-1 {
 			display: none;

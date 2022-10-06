@@ -1,7 +1,7 @@
 @import "../../../../styles/globals.scss";
 section#experience {
 	//1536px
-	@media screen and (max-width: $extra-large) {
+	@media screen and (max-width: $w1536) {
 		h2 {
 			font-size: 6rem;
 		}
@@ -23,7 +23,7 @@ section#experience {
 		}
 	}
 	//1280
-	@media screen and (max-width: $large) {
+	@media screen and (max-width: $w1280) {
 		.experience-cards {
 			gap: 3.5rem;
 		}
@@ -45,7 +45,7 @@ section#experience {
 		}
 	}
 	//1024px
-	@media screen and (max-width: $large-2) {
+	@media screen and (max-width: $w1024) {
 		width: 95%;
 		margin: 17.4rem auto;
 		h2 {
@@ -86,7 +86,7 @@ section#experience {
 	}
 
 	//1024px
-	@media screen and (max-width: $medium) {
+	@media screen and (max-width: $w934) {
 		width: 95%;
 		margin: 17.4rem auto;
 		h2 {
@@ -129,7 +129,7 @@ section#experience {
 	}
 
 	//425px
-	@media screen and (max-width: $small) {
+	@media screen and (max-width: $w425) {
 		width: 93%;
 		margin: 13.4rem auto;
 		padding: 6rem 3.3rem;

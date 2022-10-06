@@ -1,6 +1,6 @@
 @import "../../../../styles/globals.scss";
 section#benefits {
-	@media screen and (max-width: $large) {
+	@media screen and (max-width: $w1280) {
 		div.benefit {
 			justify-content: space-between;
 			.description {
@@ -21,7 +21,7 @@ section#benefits {
 			}
 		}
 	}
-	@media screen and (max-width: $large-2) {
+	@media screen and (max-width: $w1024) {
 		margin-top: -8rem;
 		div.benefit {
 			justify-content: space-between;
@@ -45,7 +45,7 @@ section#benefits {
 		}
 	}
 
-	@media screen and (max-width: $medium) {
+	@media screen and (max-width: $w934) {
 		margin: -8rem auto 7rem;
 		div.benefit {
 			justify-content: space-between;
@@ -68,7 +68,7 @@ section#benefits {
 		}
 	}
 
-	@media screen and (max-width: $small) {
+	@media screen and (max-width: $w425) {
 		width: 90%;
 		padding: 0;
 		background: none;

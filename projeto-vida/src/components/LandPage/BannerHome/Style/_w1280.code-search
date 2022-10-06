@@ -1,0 +1,101 @@
+# Query: $w1280
+# Flags: CaseSensitive
+# ContextLines: 1
+
+22 results - 11 files
+
+projeto-vida/src/components/LandPage/BannerHome/Style/BannerHomeResponsive.scss:
+   27  		}
+   28: 		@media screen and (max-width: $w1280) {
+   29  			.content-banner-img {
+
+  103  	}
+  104: 	@media screen and (max-width: $w1280) {
+  105  		.img-points-1 {
+
+  111  	}
+  112: 	@media screen and (max-width: $w1024) {
+  113  		.img-points-1 {
+
+projeto-vida/src/components/LandPage/BannerWarranty/Style/BannerWarrantyResponsive.scss:
+  14  	}
+  15: 	@media screen and (max-width: $w1280) {
+  16  		#description-warranty {
+
+  33  
+  34: 	@media screen and (max-width: $w1024) {
+  35  		#description-warranty {
+
+projeto-vida/src/components/LandPage/Benefits/Style/BenefitsResponsive.scss:
+   2  section#benefits {
+   3: 	@media screen and (max-width: $w1280) {
+   4  		div.benefit {
+
+  23  	}
+  24: 	@media screen and (max-width: $w1024) {
+  25  		margin-top: -8rem;
+
+projeto-vida/src/components/LandPage/Contacts/Style/ContactsResponsive.scss:
+  2  section#contacts {
+  3: 	@media screen and(max-width: $w1024) {
+  4  		padding: 0.6rem 3.724rem;
+
+projeto-vida/src/components/LandPage/Courses/Style/CardCourseResponsive.scss:
+  22  }
+  23: @media screen and (max-width: $w1280) {
+  24  	.card-carousel {
+
+  45  
+  46: @media screen and (max-width: $w1024) {
+  47  	.card-carousel {
+
+projeto-vida/src/components/LandPage/Courses/Style/CoursesResponsive.scss:
+  46  	}
+  47: 	@media screen and (max-width: $w1280) {
+  48  		padding: 11.8rem;
+
+  87  
+  88: 	@media screen and (max-width: $w1024) {
+  89  		padding: 11.8rem;
+
+projeto-vida/src/components/LandPage/EventSection/Style/BannerEventsResponsive.scss:
+   9  	}
+  10: 	@media screen and(max-width: $w1280) {
+  11  		#title-event {
+
+  16  	}
+  17: 	@media screen and(max-width: $w1024) {
+  18  		padding: 5.5rem 8.2rem;
+
+projeto-vida/src/components/LandPage/EventSection/Style/EventCardResponsive.scss:
+  16  
+  17:     @media screen and(max-width: $w1280) {
+  18          #event-card {
+
+  29      }
+  30:     @media screen and(max-width: $w1024) {
+  31          #event-card {
+
+projeto-vida/src/components/LandPage/Experience/Style/ExperienceResponsive.scss:
+  25  	//1280
+  26: 	@media screen and (max-width: $w1280) {
+  27  		.experience-cards {
+
+  47  	//1024px
+  48: 	@media screen and (max-width: $w1024) {
+  49  		width: 95%;
+
+projeto-vida/src/components/LandPage/Header/Style/HeaderResponsive.scss:
+  6  	}
+  7: 	@media screen and (max-width: $w1024) {
+  8  		.menu-icon {
+
+projeto-vida/src/styles/globals.scss:
+   1  $w1536: 1536px;
+   2: $w1280: 1280px;
+   3: $w1024: 1024px;
+   4  $medium: 934px;
+
+  72  }
+  73: @media screen and (max-width: $w1280-2) {
+  74  

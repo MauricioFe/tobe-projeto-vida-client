@@ -1,6 +1,6 @@
 @import "../../../../styles/globals.scss";
 div#event-card-container {
-    @media screen and(max-width: $extra-large) {
+    @media screen and(max-width: $w1536) {
         #event-card {
             #event-card-content {
                 h2 {
@@ -14,7 +14,7 @@ div#event-card-container {
         }
     }
 
-    @media screen and(max-width: $large) {
+    @media screen and(max-width: $w1280) {
         #event-card {
             #event-card-content {
                 h2 {
@@ -27,7 +27,7 @@ div#event-card-container {
             }
         }
     }
-    @media screen and(max-width: $large-2) {
+    @media screen and(max-width: $w1024) {
         #event-card {
             #event-card-content {
                 margin-top: 1rem;
@@ -41,7 +41,7 @@ div#event-card-container {
             }
         }
     }
-    @media screen and(max-width: $medium) {
+    @media screen and(max-width: $w934) {
         max-width: 100%;
         margin-bottom: 3rem;
         #event-card {
@@ -59,7 +59,7 @@ div#event-card-container {
         }
     }
 
-    @media screen and(max-width: $small) {
+    @media screen and(max-width: $w425) {
         #event-card {
             #event-card-content {
                 margin-top: 1rem;

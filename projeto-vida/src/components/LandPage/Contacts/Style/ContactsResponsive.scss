@@ -1,6 +1,6 @@
 @import "../../../../styles/globals.scss";
 section#contacts {
-	@media screen and(max-width: $large-2) {
+	@media screen and(max-width: $w1024) {
 		padding: 0.6rem 3.724rem;
 		margin: 7rem auto 7rem auto;
 		width: 90%;
@@ -10,7 +10,7 @@ section#contacts {
 		}
 	}
 
-	@media screen and(max-width: $medium) {
+	@media screen and(max-width: $w934) {
 		padding: 0.6rem 2.724rem;
 		.title-contacts {
 			font-size: 4.3rem;
@@ -31,7 +31,7 @@ section#contacts {
 			}
 		}
 	}
-	@media screen and(max-width: $medium) {
+	@media screen and(max-width: $w934) {
 		padding: 1.6rem;
 		.title-contacts {
 			width: 100%;

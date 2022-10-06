@@ -1,6 +1,6 @@
 @import "../../../../styles/globals";
 section#carousel {
-	@media screen and (max-width: $extra-large) {
+	@media screen and (max-width: $w1536) {
 		padding: 11.8rem;
 		div#carousel-presentation {
 			div#description {
@@ -44,7 +44,7 @@ section#carousel {
 			}
 		}
 	}
-	@media screen and (max-width: $large) {
+	@media screen and (max-width: $w1280) {
 		padding: 11.8rem;
 		div#carousel-presentation {
 			div#description {
@@ -85,7 +85,7 @@ section#carousel {
 		}
 	}
 
-	@media screen and (max-width: $large-2) {
+	@media screen and (max-width: $w1024) {
 		padding: 11.8rem;
 		div#carousel-presentation {
 			div#description {
@@ -130,7 +130,7 @@ section#carousel {
 			}
 		}
 	}
-	@media screen and (max-width: $medium) {
+	@media screen and (max-width: $w934) {
 		.container {
 			flex-direction: column;
 		}
@@ -179,7 +179,7 @@ section#carousel {
 		}
 	}
 
-	@media screen and (max-width: $small) {
+	@media screen and (max-width: $w425) {
 		width: 95%;
 		margin: 7.5rem auto;
 		padding: 7.8rem 2rem;

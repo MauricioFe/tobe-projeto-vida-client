@@ -1,20 +1,20 @@
 @import "../../../../styles/globals.scss";
 section#banner-event {
-	@media screen and(max-width: $extra-large) {
+	@media screen and(max-width: $w1536) {
 		#title-event {
 			h2 {
 				font-size: 6rem;
 			}
 		}
 	}
-	@media screen and(max-width: $large) {
+	@media screen and(max-width: $w1280) {
 		#title-event {
 			h2 {
 				font-size: 5rem;
 			}
 		}
 	}
-	@media screen and(max-width: $large-2) {
+	@media screen and(max-width: $w1024) {
 		padding: 5.5rem 8.2rem;
 		background: url("../../../../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
 		url("../../../../assets/images/illustrations/points-events.svg") no-repeat 100% 114% var(--gray-10);
@@ -24,7 +24,7 @@ section#banner-event {
 			}
 		}
 	}
-	@media screen and(max-width: $medium) {
+	@media screen and(max-width: $w934) {
 		background: url("../../../../assets/images/illustrations/points-events.svg") no-repeat 1% 5.7rem,
 		url("../../../../assets/images/illustrations/points-events.svg") no-repeat 100% 104% var(--gray-10);
 		#title-event {
@@ -41,7 +41,7 @@ section#banner-event {
 		}
 	}
 
-	@media screen and(max-width: $small) {
+	@media screen and(max-width: $w425) {
 		background: var(--gray-10);
 		margin: 7rem auto;
 		padding: 5.5rem 3.2rem;
