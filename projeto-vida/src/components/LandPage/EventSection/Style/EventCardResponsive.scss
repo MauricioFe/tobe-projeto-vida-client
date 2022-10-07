@@ -1,76 +1,77 @@
 @import "../../../../styles/globals.scss";
 div#event-card-container {
-    @media screen and(max-width: $w1536) {
-        #event-card {
-            #event-card-content {
-                h2 {
-                    font-size: 1.7rem;
-                }
-                p {
-                    margin-top: 1rem;
-                    font-size: 1.5rem;
-                }
-            }
+  @media screen and(max-width: $w1536) {
+    #event-card {
+      #event-card-content {
+        h2 {
+          font-size: 1.7rem;
         }
+        p {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+      }
     }
+  }
 
-    @media screen and(max-width: $w1280) {
-        #event-card {
-            #event-card-content {
-                h2 {
-                    font-size: 1.5rem;
-                }
-                p {
-                    margin-top: 1rem;
-                    font-size: 1.45rem;
-                }
-            }
+  @media screen and(max-width: $w1280) {
+    #event-card {
+      #event-card-content {
+        h2 {
+          font-size: 1.5rem;
         }
-    }
-    @media screen and(max-width: $w1024) {
-        #event-card {
-            #event-card-content {
-                margin-top: 1rem;
-                h2 {
-                    font-size: 1.3rem;
-                }
-                p {
-                    margin-top: 1rem;
-                    font-size: 1.15rem;
-                }
-            }
+        p {
+          margin-top: 1rem;
+          font-size: 1.45rem;
         }
+      }
     }
-    @media screen and(max-width: $w934) {
-        max-width: 100%;
-        margin-bottom: 3rem;
-        #event-card {
-            width: 100%;
-            #event-card-content {
-                margin-top: 1rem;
-                h2 {
-                    font-size: 2.3rem;
-                }
-                p {
-                    margin-top: 1rem;
-                    font-size: 1.6rem;
-                }
-            }
+  }
+  @media screen and(max-width: $w1024) {
+    #event-card {
+      #event-card-content {
+        margin-top: 1rem;
+        h2 {
+          font-size: 1.3rem;
         }
+        p {
+          margin-top: 1rem;
+          font-size: 1.15rem;
+        }
+      }
     }
+  }
+  @media screen and(max-width: $w934) {
+    max-width: 100%;
+    margin-bottom: 3rem;
+    #event-card {
+      width: 100%;
+      #event-card-content {
+        margin-top: 1rem;
+        h2 {
+          font-size: 2.3rem;
+        }
+        p {
+          margin-top: 1rem;
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
 
-    @media screen and(max-width: $w425) {
-        #event-card {
-            #event-card-content {
-                margin-top: 1rem;
-                h2 {
-                    font-size: 1.8rem;
-                }
-                p {
-                    margin-top: 1rem;
-                    font-size: 1.3rem;
-                }
-            }
+  @media screen and(max-width: $w425) {
+    #event-card {
+      #event-card-content {
+        margin-top: 1rem;
+        h2 {
+          font-size: 2rem;
         }
+        p {
+          margin-top: 1rem;
+          font-size: 1.6rem;
+          line-height: 2.2rem;
+        }
+      }
     }
+  }
 }
