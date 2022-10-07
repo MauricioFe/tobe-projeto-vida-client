@@ -12,7 +12,7 @@ export default function Home() {
   return ( 
     <>
       <Header />
-      <main>
+      <main style ={{padding:'0 2rem'}}>
         <BannerHome />
         <Experience />
         <Benefits />
