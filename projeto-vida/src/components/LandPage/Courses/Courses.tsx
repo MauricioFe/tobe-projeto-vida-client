@@ -154,7 +154,7 @@ export default function Courses() {
       <div className="container">
         <div id="carousel-presentation">
           <div id="description">
-            <h2>Quais cursos a ToBe <span>oferece?</span></h2>
+            <h2>Quais cursos a <br/>ToBe <span>oferece?</span></h2>
             <h4>Temos uma variedade de cursos para você</h4>
           </div>
         </div>
