@@ -73,27 +73,29 @@ section#banner-warranty {
 
 	@media screen and (max-width: $w425) {
 		margin:7rem  auto;
-		width: 90%;
+		width: 100%;
 		#description-warranty {
-			height: 58rem;
+			height: 72rem;
 			
-			padding: 7.5rem 2rem;
-			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 100% 100% / 35rem,
-			url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 100% -4.9rem,
+			padding: 12.5rem 2rem;
+			background: url("../../../../assets/images/illustrations/illustra_warranty.svg") no-repeat 45% 110% / 46rem,
+			url("../../../../assets/images/illustrations/points-warranty1.svg") no-repeat 95% -1.4rem ,
 				var(--gray-10);
 		}
 
 		#description-warranty {
 			width: 100%;
 			margin: 0 auto;
+			
 			h2 {
 				font-size: 4rem;
 				margin-left: 0;
 				line-height: 6rem;
 			}
 
-			p {
-				font-size:2rem;
+			p {padding: 0rem 0.5rem;
+				font-size:2.3rem;
+				font-weight: 400;
 				margin-top: 2rem;
 				max-width: 28rem;
 				line-height: 3rem;
