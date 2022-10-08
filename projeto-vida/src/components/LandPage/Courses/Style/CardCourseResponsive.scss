@@ -1,5 +1,5 @@
 @import "../../../../styles/globals";
-@media screen and (max-width: $extra-large) {
+@media screen and (max-width: $w1536) {
 	.card-carousel {
 		min-height: 55.3rem;
 		min-width: 41rem;
@@ -20,7 +20,7 @@
 		}
 	}
 }
-@media screen and (max-width: $large) {
+@media screen and (max-width: $w1280) {
 	.card-carousel {
 		min-height: 50.3rem;
 		min-width: 33.5rem;
@@ -43,7 +43,7 @@
 	}
 }
 
-@media screen and (max-width: $large-2) {
+@media screen and (max-width: $w1024) {
 	.card-carousel {
 		min-height: 50.3rem;
 		min-width: 33.5rem;
@@ -65,7 +65,7 @@
 		}
 	}
 }
-@media screen and (max-width: $medium) {
+@media screen and (max-width: $w934) {
 	.card-carousel {
 		min-width: 100%;
 		&:nth-child(even) {
@@ -74,7 +74,7 @@
 	}
 }
 
-@media screen and (max-width: $small) {
+@media screen and (max-width: $w425) {
 	.card-carousel {
 		min-width: 100%;
 	}

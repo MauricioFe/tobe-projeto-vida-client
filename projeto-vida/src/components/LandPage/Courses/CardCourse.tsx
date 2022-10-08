@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import '../../LandPage/Courses/Style/CardCourse.scss'
 import '../../LandPage/Courses/Style/CardCourseResponsive.scss'
+import Vector from '../../../assets/images/icons/Vector.svg'
 
 export default function CardCourse({ title, description, id, index }:
   { title: String, description: String, id: Number, index: number }) {
@@ -8,7 +9,7 @@ export default function CardCourse({ title, description, id, index }:
     <>
       <div className={`card-carousel`}>
         <div id="icon-card-carousel">
-          <img src="" alt="" />
+          <img src={Vector} alt="Vector icon" />
         </div>
         <div className="description-card">
           <h3>

@@ -1,11 +1,11 @@
 @import "../../../../styles/globals.scss";
 section#experience {
 	//1536px
-	@media screen and (max-width: $extra-large) {
+	@media screen and (max-width: $w1536) {
 		h2 {
 			font-size: 6rem;
 		}
-		h4 {
+		h3 {
 			font-size: 3.2rem;
 		}
 		.experience-cards {
@@ -23,7 +23,7 @@ section#experience {
 		}
 	}
 	//1280
-	@media screen and (max-width: $large) {
+	@media screen and (max-width: $w1280) {
 		.experience-cards {
 			gap: 3.5rem;
 		}
@@ -45,13 +45,13 @@ section#experience {
 		}
 	}
 	//1024px
-	@media screen and (max-width: $large-2) {
+	@media screen and (max-width: $w1024) {
 		width: 95%;
 		margin: 17.4rem auto;
 		h2 {
 			font-size: 4rem;
 		}
-		h4 {
+		h3 {
 			font-size: 2.5rem;
 		}
 		.experience-cards {
@@ -86,13 +86,13 @@ section#experience {
 	}
 
 	//1024px
-	@media screen and (max-width: $medium) {
+	@media screen and (max-width: $w934) {
 		width: 95%;
 		margin: 17.4rem auto;
 		h2 {
 			font-size: 3.8rem;
 		}
-		h4 {
+		h3 {
 			font-size: 2.2rem;
 		}
 		.experience-cards {
@@ -129,15 +129,17 @@ section#experience {
 	}
 
 	//425px
-	@media screen and (max-width: $small) {
-		width: 93%;
+	@media screen and (max-width: $w425) {
+		width: 100%;
 		margin: 13.4rem auto;
-		padding: 6rem 3.3rem;
+		padding: 6rem 2.3rem;
 		h2 {
-			font-size: 2.8rem;
+			font-size: 3.3rem;
 		}
-		h4 {
-			font-size: 1.8rem;
+		h3 {
+			font-size: 1.6rem;
+			font-weight: 550;
+			line-height: 23px;
 		}
 		.experience-cards {
 			display: grid;
@@ -145,7 +147,7 @@ section#experience {
 		}
 		.experience-cards div.experience-card {
 			width: 100%;
-			padding: 4rem 4rem;
+			padding: 4rem 2rem;
 		}
 		.experience-cards {
 			div.experience-card {
@@ -155,18 +157,21 @@ section#experience {
 					div.experience-icon {
 						width: 6rem;
 						height: 4.5rem;
+						border-radius: 1.9rem;
 						> img {
-							width: 1.75rem;
+							width: 2.35rem;
+							font-style: bold;
 						}
 					}
 					h5 {
 						width: 100%;
-						font-size: 1.2rem;
-					}
-				}
+						font-size: 2.2rem;
+					}				}
 
 				p {
-					font-size: 1.2rem;
+					font-size: 1.6rem;
+					font-weight: 400;
+					line-height: 2.1rem;
 				}
 			}
 		}

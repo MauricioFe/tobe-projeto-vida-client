@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <section id="experience">
       <h2>A melhor experiência para você, <span>estudante!</span></h2>
-      <h4>Temos benefícios exlcusivos comparados a outras plataformas</h4>
+      <h3>Temos benefícios exlcusivos comparados a outras plataformas</h3>
       <div className="experience-cards">
         <div className="experience-card">
           <div className="card-title">

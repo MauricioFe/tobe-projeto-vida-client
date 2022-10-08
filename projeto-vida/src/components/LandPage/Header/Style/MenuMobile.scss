@@ -7,7 +7,7 @@
     width: 40rem;
     height: 50rem;
     background-color: var(--blue-1);
-    @media screen and (max-width: $small) {
+    @media screen and (max-width: $w425) {
         width: 100%;
     }
     .container-img {

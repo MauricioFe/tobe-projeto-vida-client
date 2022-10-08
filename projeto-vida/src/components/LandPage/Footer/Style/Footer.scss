@@ -1,18 +1,23 @@
 footer {
-	height: 40rem;
-	padding: 5rem;
+	height: 38rem;
 	display: flex;
-	flex-direction: column;
+	z-index: 999;
+	width: 100%;
 	justify-content: center;
+	flex-direction: column;
 	align-items: center;
-	background: url("../../../../assets/images/illustrations/points-events.svg") no-repeat 1% 1rem,
-		url("../../../../assets/images/illustrations/points-events.svg") no-repeat 99% 90% var(--gray-1);
-
+	background-color: var(--gray-1);
+	// background: url("../../../../assets/images/illustrations/points-events.svg") no-repeat 1% 1rem,
+	// 	url("../../../../assets/images/illustrations/points-events.svg") no-repeat 99% 90% var(--gray-1);
+img{
+	width: 130px;
+	margin-bottom: 1rem;
+}
 	p {
 		font-family: "aller_lt";
 		font-style: normal;
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 1.9rem;
 		line-height: 150%;
 		margin-top: 1rem;
 		color: var(--gray-9);
