@@ -12,22 +12,22 @@ export default function Contacts() {
           <form>
             <div className="input-block">
               <label htmlFor="name">Seu Nome</label>
-              <input id="name" type="text" />
+              <input id="name" type="text" placeholder='Digite seu nome...'/>
             </div>
 
             <div className="input-block">
               <label htmlFor="email">E-mail</label>
-              <input id="email" type="email" />
+              <input id="email" type="email" placeholder='Digite seu e-mail...'/>
             </div>
 
             <div className="input-block">
-              <label htmlFor="subject">Assunto</label>
-              <input id="subject" type="text" />
+              <label htmlFor="subject" >Assunto</label>
+              <input id="subject"  type="text" placeholder='Digite o assunto. . .' />
             </div>
 
             <div className="input-block">
-              <label htmlFor="message">Sua mensagem</label>
-              <textarea id="message" />
+              <label style={{justifyContent:'center'}} htmlFor="message">Sua mensagem</label>
+              <textarea id="message" placeholder='Digite sua mensagem...'/>
             </div>
             <button className="confirm-button" type="submit">
               Enviar

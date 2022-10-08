@@ -1,54 +1,44 @@
 @import "../../../../styles/globals.scss";
 section#contacts {
-	@media screen and(max-width: $w1024) {
-		padding: 0.6rem 3.724rem;
-		margin: 7rem auto 7rem auto;
-		width: 90%;
-		.title-contacts {
-			font-size: 4.3rem;
-			margin-bottom: 6rem;
-		}
-	}
+  @media screen and(max-width: $w1024) {
+    padding: 0.6rem 3.724rem;
+    margin: 7rem auto 11rem ;
+    width: 100%;
+    .title-contacts {
+      font-size: 4.3rem;
+      margin-bottom: 6rem;
+    }
+  }
 
-	@media screen and(max-width: $w934) {
-		padding: 0.6rem 2.724rem;
-		.title-contacts {
-			font-size: 4.3rem;
-			margin-bottom: 6rem;
-			text-align: center;
-		}
-		div.contact {
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			align-items: center;
-			> img {
-				width: 90%;
-				margin-bottom: 5rem;
-			}
-			.form-contact {
-				width: 90%;
-			}
-		}
-	}
-	@media screen and(max-width: $w934) {
-		padding: 1.6rem;
-		.title-contacts {
-			width: 100%;
-			font-size: 2.7rem;
-			text-align: left;
-			 line-height: 4rem;
-		}
-		div.contact {
-			> img {
-				width: 100%;
-			}
-			.form-contact {
-				width: 100%;
-				button.confirm-button{
-					width: 18rem;
-				}
-			}
-		}
-	}
+  @media screen and(max-width: $w934) {
+    padding: 1.6rem 0rem;
+    .title-contacts {
+      font-size: 4.3rem;
+      margin-bottom: 6rem;
+      width: 100%;
+      text-align: left;
+      line-height: 4rem;
+    }
+	
+    div.contact {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-items: center;
+      > img {
+        width: 100%;
+        margin-bottom: 9rem;
+      }
+	  
+      .form-contact {
+		
+        width: 90%;
+        button.confirm-button {
+          width: 20rem;
+		
+		 
+        }
+      }
+    }
+  }
 }
