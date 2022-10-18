@@ -1,0 +1,106 @@
+@import '../../styles/globals.scss';
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    margin: 10px;
+  }
+
+  .containerLogin {
+    display: flex;
+    width: 70%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    .loginWhiteForm {
+      height: 80%;
+      max-width: 90%;
+      background-color: var(--white-2);
+
+      h2 {
+        margin-top: 2rem;
+        font-size: 4.5rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        font-size: 2.1rem;
+        color: var(--gray-7);
+        font-weight: normal;
+      }
+      p{margin-top: 2.5rem;
+        font-size: 1.5rem;
+        letter-spacing:.1rem ;
+        color: var(--gray-5);
+      }
+      .formSection {
+        padding: 3rem 0;
+        label {
+          font-size: 2rem;
+          font-weight: 400;
+          color: var(--blue-1);
+        }
+        input {
+          font-size: 1.5rem;
+          margin-top: 1rem;
+        }
+        button {
+          padding: 2.5rem 9rem;
+          border-radius: 2rem;
+          color: white;
+          font-size: 2rem;
+          font-weight: 500;
+          background-color: var(--blue-1);
+        }
+      }
+    }
+    .loginBlackForm {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: $w1024) {
+  .wrapper {
+    background-color: red;
+    width: 100%;
+    .containerLogin {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      .loginWhiteForm {
+        height: 100%;
+        flex-grow: 1;
+        flex-basis: 50%;
+        padding: 10rem;
+        h2,
+        h3 {
+          margin-left: 1rem;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          input {
+            width: 85%;
+          }
+          button {
+            width: 40%;
+          }
+        }
+      }
+      .loginBlackForm {
+        display: block;
+        flex-grow: 1;
+        flex-basis: 50%;
+        height: 100%;
+        font-size: 10rem;
+        color: white;
+        background-color: black;
+      }
+    }
+  }
+}

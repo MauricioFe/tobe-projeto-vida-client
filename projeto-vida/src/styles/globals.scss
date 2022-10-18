@@ -78,6 +78,24 @@ html {
 		}
 	}
 }
+
+.input,
+.passwordInput,
+.emailInput,
+.nameInput,
+.textarea {
+  box-shadow: rgba(0, 0, 0, 0.11);
+  border: none;
+  background: #ffffff;
+  border-radius: 1.7rem;
+  height: 6.5rem;
+  width: 100%;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 3rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
 .inative {
 	transform: translateX(100%);
 	transition: transform 0.3s ease-out;
